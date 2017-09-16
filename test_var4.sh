@@ -4,8 +4,8 @@
 testEquality()
 {
 	sh 5.sh
-	actual=`cat res_4.xml`
-	expected=`cat result.xml`
+	actual=`cat actual_4.txt`
+	expected=`cat expected_4.txt`
   assertEquals "$actual" "$expected"
 }
 
