@@ -6,7 +6,7 @@ testEquality()
 	sh script4.sh
 	actual=`cat actual_4.txt`
 	expected=`cat expected_4.txt`
-  assertEquals "$actual" "$expected"
+  assertEquals "$expected" "$actual"
 }
 
 # load shunit2
